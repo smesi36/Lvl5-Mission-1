@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.uploadBtn {
+    cursor: pointer;
+    background-color: rgb(44, 44, 44);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent; /* reserves border space */
+    transition: border-color 0.2s ease; /* Smooth transition */
+}
+
+.uploadBtn:hover {
+    border-color: rgb(162, 162, 218);
+    background-color: rgb(87, 87, 87);
+}
+
+/* option 2: use outline instead of border to prevent elements moving on hover */
+/* .uploadBtn:hover {
+       outline: blue solid 1px;
+} */

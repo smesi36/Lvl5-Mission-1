@@ -1,0 +1,13 @@
+.analyseBtn {
+    cursor: pointer;
+    background-color: rgb(44, 44, 44);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent; /* reserves border space */
+    transition: border-color 0.2s ease; /* Smooth transition */
+}
+
+.analyseBtn:hover {
+    border-color: rgb(162, 162, 218);
+    background-color: rgb(87, 87, 87);
+}
