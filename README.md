@@ -50,12 +50,11 @@ To get a local copy up and running, follow the steps below.
 
 <h3 id="prerequisites">Prerequisites</h3>
 
+
 **Important:** This project requires a Microsoft Azure account with a properly configured Custom Vision resource. You'll need to:
 1. Create a Custom Vision project in the Azure portal
 2. Train a model with vehicle images for detecting trucks, SUVs, sedans, and identifying Mercedes and Toyota brands
 3. Publish your model to get the prediction endpoint URL and key for the .env file
-
-You'll need [Node.js](http://nodejs.org/) and npm installed:
 
 Frontend:
 ```bash
