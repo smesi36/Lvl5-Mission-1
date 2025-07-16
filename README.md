@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-# Turners Car Auction Insurance Project
+# AI Vehicle Classifier (Image Recognition App)
 
 A web app that uses a trained Azure custom vision object detector AI model to identify vehicle types and some brands
 
@@ -22,9 +22,10 @@ A web app that uses a trained Azure custom vision object detector AI model to id
 
 <h2 id="about-the-project">🧾 About the Project</h2>
 
-This project is a simple web-based app designed for Turners Car Auction Insurance. It enables users to upload and analyse vehicle images. The app uses Microsoft Azure Custom Vision to detect three types of vehicles: **Truck**, **SUV**, and **Sedan**, and identifies brands as **Mercedes**, **Toyota**, or **Other**.
+This project is a simple web-based app designed for Turners Car Auction Insurance. It enables users to upload and analyse vehicle images. The app uses **Microsoft Azure Custom Vision** to detect three types of vehicles: **Truck**, **SUV**, and **Sedan**, and identifies brands as **Mercedes**, **Toyota**, or **Other**.
 
-<img src="src/assets/default-img-preview.png" alt="Homepage Screenshot" width="640"/>
+<img src='Custom_vision1.png' alt="Homepage Screenshot1" width="640"/>
+<img src='Custom_vision2.png' alt="Homepage Screenshot2" width="640"/>
 
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
@@ -48,6 +49,11 @@ This project is a simple web-based app designed for Turners Car Auction Insuranc
 To get a local copy up and running, follow the steps below.
 
 <h3 id="prerequisites">Prerequisites</h3>
+
+**Important:** This project requires a Microsoft Azure account with a properly configured Custom Vision resource. You'll need to:
+1. Create a Custom Vision project in the Azure portal
+2. Train a model with vehicle images for detecting trucks, SUVs, sedans, and identifying Mercedes and Toyota brands
+3. Publish your model to get the prediction endpoint URL and key for the .env file
 
 You'll need [Node.js](http://nodejs.org/) and npm installed:
 
